@@ -1,0 +1,9 @@
+[
+    NaN,
+    undefined,
+    0,
+    false,
+    [],
+    '',
+    null
+]
