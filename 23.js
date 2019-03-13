@@ -19,6 +19,6 @@ const helper = it => new Promise(rez => {
         }
     }
     peel();
-})
+});
 
 console.log(helper(f(1)));
