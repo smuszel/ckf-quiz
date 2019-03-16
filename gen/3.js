@@ -1,4 +1,4 @@
-var asyncIterable = {
+const asyncIterable = {
     [Symbol.asyncIterator]() {
         return {
             i: 0,
