@@ -1,13 +1,9 @@
-console.log(this);
-
-// function f() {
-//     var x = 1
-//     return this.g()
-// }
-
-// function g() {
-//     var x = 2
-//     return this.x
-// }
-
-// console.log(f());
+function f() {
+    const x = 2
+    function g() {
+        console.log(x);
+    }
+    g();
+}
+const x = 1
+f();

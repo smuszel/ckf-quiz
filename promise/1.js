@@ -1,0 +1,1 @@
+new Promise((rez, rej) => { }).then(x => console.log(x));

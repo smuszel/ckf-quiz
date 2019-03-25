@@ -1,6 +1,15 @@
-const obj = {
-    x: 1,
-    f: () => this.x
+var x = 1
+
+function f() {
+    var x = 2;
+
+    function g() {
+        console.log(x);
+    }
+
+    return g;
 }
 
-console.log(obj.f());
+var h = f();
+
+h();

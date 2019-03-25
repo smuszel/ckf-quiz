@@ -2,7 +2,6 @@
 // const g = ([a, b, c, d, e, f, g, h]) => { }
 // const h = ({ a, b, c, d, e, f, g, h }) => { }
 
-
 const xs = [
     ['John', 12, 178],
     ['Jane', 21, 173],

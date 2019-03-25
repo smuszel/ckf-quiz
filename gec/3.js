@@ -1,14 +1,10 @@
-var x = 0
-
-const obj = {
-    x: 1,
-
-    f() {
-        return this.x
-    }
+function g() {
+    console.log(x);
 }
 
-const f = obj.f;
+function f() {
+    const x = 5
+    g();
+}
 
-console.log(f());
-console.log(obj.f());
+f();
