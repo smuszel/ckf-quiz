@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="help">...</div>
+    <input type="text" placeholder="email" id="email">
+    <input type="text" placeholder="name" id="name">
+    <input type="text" placeholder="age" id="age">
+</body>
+<script>
+    function showHelp(help) {
+        document.getElementById('help').innerHTML = help;
+    }
+    
+    function setupHelp() {
+        var helpText = [
+            { 'id': 'email', 'help': 'Your e-mail address' },
+            { 'id': 'name', 'help': 'Your full name' },
+            { 'id': 'age', 'help': 'Your age (you must be over 16)' }
+        ];
+        
+        for (var i = 0; i < helpText.length; i++) {
+            var item = helpText[i];
+            document.getElementById(item.id).onfocus = function () {
+                showHelp(item.help);
+            }
+        }
+    }
+
+    setupHelp();
+</script>
+</html>
