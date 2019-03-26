@@ -1,7 +1,5 @@
-//
-if (isMeExists) {
-    console.log('yup');
-} else {
-    console.log('nay');
-}
-//
+NaN === NaN
+isNaN(NaN)
+isNaN('1')
+isNaN(1)
+isNaN('x')

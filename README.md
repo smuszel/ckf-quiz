@@ -1,0 +1,1 @@
+### Inspired by [wtfjs](https://github.com/denysdovhan/wtfjs)

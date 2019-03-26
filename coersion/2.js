@@ -1,5 +1,4 @@
-NaN === NaN
-isNaN(NaN)
-isNaN('1')
-isNaN(1)
-isNaN('x')
+'foo' + + 'bar'
+true + true === 2
+true === 1
+[[1]][+[]][+[]]
